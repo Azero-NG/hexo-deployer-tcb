@@ -1,6 +1,6 @@
 # hexo-deployer-cos
 
-Tencent Cloud Object Storage (COS) plugin of Hexo
+Tencent CloudBase (TCB) plugin of Hexo
 
 ## Introduce
 
@@ -18,20 +18,18 @@ You can configure in _config.yml as follows:
 
 ```yaml
 deploy:
-  type: cos
+  type: tcb
   secretId: yourSecretId
   secretKey: yourSecretKey
-  bucket: yourBucket
-  region: yourRegion
+  envId: yourEnvId
 ```
 
-For projects that use pipelines, you may not want to expose COS properties in the project file, so we support getting them through environment variables.
+For projects that use pipelines, you may not want to expose TCB properties in the project file, so we support getting them through environment variables.
 
 ```shell script
-COS_SECRET_ID=yourSecretId
-COS_SECRET_KEY=yourSecretKey
-COS_BUCKET=yourBucket
-COS_REGION=yourRegion
+TCB_SECRET_ID=yourSecretId
+TCB_SECRET_KEY=yourSecretKey
+TCB_ENV_Id=yourEnvId
 ```
 
 > Environment variables have lower priority than _config.xml configuration

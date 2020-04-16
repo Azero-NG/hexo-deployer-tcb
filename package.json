@@ -1,39 +1,42 @@
 {
-  "name": "hexo-deployer-cos",
-  "version": "1.1.0",
-  "description": "Tencent Cloud Object Storage (COS) plugin of Hexo",
+  "name": "hexo-deployer-tcb",
+  "version": "1.0.0",
+  "description": "Tencent CloudBase (TCB) plugin of Hexo",
   "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sdlzhd/hexo-deployer-cos.git"
+    "url": "git+https://github.com:Azero-NG/hexo-deployer-tcb.git"
   },
   "keywords": [
     "hexo",
     "git",
     "deploy",
     "deployer",
-    "cos"
+    "tcb"
   ],
-  "author": "dongdong",
+  "author": "azero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sdlzhd/hexo-deployer-cos/issues"
+    "url": "https://github.com/Azero-NG/hexo-deployer-tcb/issues"
   },
-  "homepage": "https://github.com/sdlzhd/hexo-deployer-cos#readme",
+  "homepage": "https://github.com/Azero-NG/hexo-deployer-tcb#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "cos-nodejs-sdk-v5": "^2.5.9",
-    "hexo-fs": "^1.0.2"
+    "@cloudbase/cli": "^0.6.7",
+    "chalk": "^4.0.0",
+    "hexo-fs": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint": "^6.8.0",
+    "eslint-config-hexo": "^4.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.4"
   }
 }
