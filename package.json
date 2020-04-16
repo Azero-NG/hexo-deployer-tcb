@@ -1,6 +1,6 @@
 {
-  "name": "hexo-deployer-tcb",
-  "version": "1.0.0",
+  "name": "hexo-deployer-tcb-static",
+  "version": "1.0.2",
   "description": "Tencent CloudBase (TCB) plugin of Hexo",
   "main": "index",
   "scripts": {
