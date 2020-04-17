@@ -1,4 +1,4 @@
-# hexo-deployer-cos
+# hexo-deployer-tcb-static
 
 Tencent CloudBase (TCB) plugin of Hexo
 
@@ -6,11 +6,11 @@ Tencent CloudBase (TCB) plugin of Hexo
 
 ### npm
 
-> $ npm install hexo-deployer-tcb --save
+> $ npm install hexo-deployer-tcb-static --save
 
 ### yarn
 
-> $ yarn add hexo-deployer-tcb
+> $ yarn add hexo-deployer-tcb-static
 
 ## Options
 
